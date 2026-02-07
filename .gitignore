@@ -1,0 +1,9 @@
+.terraform/
+*.tfstate*
+.terraform.lock.hcl
+errored.tfstate
+.terraform/
+bootstrap/.terraform/
+*.tfstate*
+*.exe
+.terraform.lock.hcl
