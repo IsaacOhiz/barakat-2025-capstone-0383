@@ -1,5 +1,5 @@
 variable "student_id" {
-  default = "0383"
+  default = "025-0383"
 }
 
 variable "vpc_cidr" {

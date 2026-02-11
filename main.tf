@@ -21,6 +21,6 @@ module "vpc" {
         "Project" = "Bedrock"
     }
     tags = {
-        "Project" = "Bedrock"
+        "Project" = "barakat-2025-capstone"
     }
 }

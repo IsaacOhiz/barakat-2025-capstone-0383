@@ -1,6 +1,9 @@
 resource "aws_s3_bucket" "assets" {
-  bucket = "bedrock-assets-${var.student_id}"
-}
+  bucket = "bedrock-assets-025-0383"
+  tags = {
+    Project = "barakat-2025-capstone"
+  }
+  }
 
 data "archive_file" "lambda_zip" {
   type        = "zip"

@@ -15,13 +15,14 @@ module "eks" {
     coredns = {}
     kube-proxy = {}
     vpc-cni = {}
+    amazon-cloudwatch-observability = {}
 }
   eks_managed_node_groups = {
     general = {
       min_size     = 2
       max_size     = 3
       desired_size = 2
-      instance_types = ["t3.micro"]
+      instance_types = ["t3.medium"]
     }
   }
 
